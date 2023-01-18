@@ -1,0 +1,26 @@
+{
+    "name": "shellaidev/megacraft",
+    "description": "Megacraft - Autodonate for Minecraft",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Shellai Dev",
+            "email": "support@shellaidev.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.11",
+        "xpaw/php-minecraft-query": "^4.0",
+        "thedudeguy/rcon": "^1.0",
+        "yoomoney/yookassa-sdk-php": "^2.7",
+        "thingengineer/mysqli-database-class": "^2.9"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ShellaiDev\\": "app/"
+        },
+        "files": [ "config.php"],
+        "classmap": [ "app/Libs" ]
+    }
+}

@@ -1,0 +1,18 @@
+Options -Indexes
+
+AddDefaultCharset utf-8
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} /(.*)/$
+RewriteRule ^ /%1 [R,L]
+
+RewriteRule ^/?(index.php|index)?$ index.php?route=index [L,QSA]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^/?([-_a-zA-Z0-9/]*)?$ index.php?route=$1 [L,QSA]
+
+<FilesMatch "(config|init|routes|composer\.(.*)).php">
+   Deny from all
+</FilesMatch>

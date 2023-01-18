@@ -1,0 +1,45 @@
+$fonts: (
+    'ProximaNova-Black',
+    'ProximaNova-Regular',
+    'ProximaNova-Bold',
+    'ProximaNova-Semibold',
+    'ProximaNova-Extrabld',
+    'ProximaNova-Thin',
+    'ProximaNova-Light',
+    'Roboto-Regular'
+);
+
+$colors: (
+    orange: #F77F15,
+    white: #FFFFFF,
+    body: #FFFBFA,
+    nav: (
+        bg: #1B1B1B,
+        text: #C0C0C0,
+        ip: #FFFFFF
+    ),
+    welcome: #CCCCCC,
+    title: #1B1B1B,
+    item: #1B1B1B,
+    sale: #FFF6EE,
+    category: #FFF6EE,
+    category_descr: #474747,
+    item_title: #E2E2E2,
+    footer: #1B1B1B,
+    footer_links: #C0C0C0
+);
+
+$fontsize: (
+    h1: 96px,
+    nav: 18px,
+    base: 24px,
+    ip: 24px,
+    title: 64px,
+    title_sale: 24px,
+    sale_btn: 24px,
+    category_descr: 18px,
+    buy_btn: 18px,
+    footer_nav: 18px,
+    footer_socials: 16px,
+    popup_title: 36px,
+);
