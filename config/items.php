@@ -11,7 +11,7 @@ return [
     // VIP
     [
         'name' => 'VIP',    // Название
-        'price' => 30,     // Цена
+        'price' => 45,     // Цена
         'sale_price' => 25,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/vip.png',    // URL картинки для отображения в списке товаров
@@ -65,7 +65,7 @@ return [
     // Premium
     [
         'name' => 'Премиум',    // Название
-        'price' => 69,     // Цена
+        'price' => 100,     // Цена
         'sale_price' => 50,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/premium.png',    // URL картинки для отображения в списке товаров
@@ -99,7 +99,7 @@ return [
     // Creative
     [
         'name' => 'Креатив',    // Название
-        'price' => 95,     // Цена
+        'price' => 152,     // Цена
         'sale_price' => 80,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/creative.png',    // URL картинки для отображения в списке товаров
@@ -127,7 +127,7 @@ return [
     // Moder
     [
         'name' => 'Модератор',    // Название
-        'price' => 145,     // Цена
+        'price' => 232,     // Цена
         'sale_price' => 145,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/moder.png',    // URL картинки для отображения в списке товаров
@@ -163,7 +163,7 @@ return [
     // Admin
     [
         'name' => 'Админ',    // Название
-        'price' => 195,     // Цена
+        'price' => 330,     // Цена
         'sale_price' => 180,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/admin.png',    // URL картинки для отображения в списке товаров
@@ -201,7 +201,7 @@ return [
     // Lord
     [
         'name' => 'Лорд',    // Название
-        'price' => 285,     // Цена
+        'price' => 480,     // Цена
         'sale_price' => 285,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/lord.png',    // URL картинки для отображения в списке товаров
@@ -234,7 +234,7 @@ return [
     // gladmin
     [
         'name' => 'Главный Админ',    // Название
-        'price' => 450,     // Цена
+        'price' => 810,     // Цена
         'sale_price' => 399,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/gladmin.png',    // URL картинки для отображения в списке товаров
@@ -269,7 +269,7 @@ return [
     // Operator
     [
         'name' => 'Оператор',    // Название
-        'price' => 555,     // Цена
+        'price' => 999,     // Цена
         'sale_price' => 500,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/oper.png',    // URL картинки для отображения в списке товаров
@@ -307,7 +307,7 @@ return [
     // Creator
     [
         'name' => 'Создатель',    // Название
-        'price' => 675,     // Цена
+        'price' => 1280,     // Цена
         'sale_price' => 675,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/creator.png',    // URL картинки для отображения в списке товаров
@@ -340,7 +340,7 @@ return [
     // Owner
     [
         'name' => 'Основатель',    // Название
-        'price' => 855,     // Цена
+        'price' => 1710,     // Цена
         'sale_price' => 855,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/owner.png',    // URL картинки для отображения в списке товаров
@@ -375,7 +375,7 @@ return [
     // Vladelec
     [
         'name' => 'Владелец',    // Название
-        'price' => 999,     // Цена
+        'price' => 1998,     // Цена
         'sale_price' => 999,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/vl.png',    // URL картинки для отображения в списке товаров
@@ -412,7 +412,7 @@ return [
     // Анти-Грифер
     [
         'name' => 'Анти-Грифер',    // Название
-        'price' => 1065,     // Цена
+        'price' => 2130,     // Цена
         'sale_price' => 1065,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/ag.png',    // URL картинки для отображения в списке товаров
@@ -447,7 +447,7 @@ return [
     // БОГ
     [
         'name' => 'БОГ',    // Название
-        'price' => 1459,     // Цена
+        'price' => 2770,     // Цена
         'sale_price' => 1459,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/god.png',    // URL картинки для отображения в списке товаров
@@ -483,7 +483,7 @@ return [
     // БИГ БОСС
     [
         'name' => 'БОЛЬШОЙ БОСС',    // Название
-        'price' => 1957,     // Цена
+        'price' => 3717,     // Цена
         'sale_price' => 1957,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/donate/bb.png',    // URL картинки для отображения в списке товаров
@@ -529,7 +529,7 @@ return [
     // 500 монет
     [
         'name' => '500 Монет',    // Название
-        'price' => 500,     // Цена
+        'price' => 850,     // Цена
         'sale_price' => 1,  // Цена со скидкой
         'img' => [
             'default' => 'template/assets/images/case.png',    // URL картинки для отображения в списке товаров
@@ -568,7 +568,7 @@ return [
     // 500 монет
     [
         'name' => '500 Монет',    // Название
-        'price' => 500,     // Цена
+        'price' => 850,     // Цена
         'sale_price' => 1,  // Цена со скидкой
         'img' => [
             'default' => 'https://megacraft.org/template/assets/images/case.png',    // URL картинки для отображения в списке товаров
@@ -607,7 +607,7 @@ return [
     // 500 монет
     [
         'name' => '500 Монет',    // Название
-        'price' => 500,     // Цена
+        'price' => 850,     // Цена
         'sale_price' => 1,  // Цена со скидкой
         'img' => [
             'default' => 'https://megacraft.org/template/assets/images/case.png',    // URL картинки для отображения в списке товаров
