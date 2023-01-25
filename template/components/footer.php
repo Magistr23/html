@@ -1,5 +1,5 @@
 <footer>
-    <div class="border-footer"></div>
+    <!-- <div class="border-footer"></div> -->
 
     <div class="footer-container">
         <ul class="footer-container__nav">

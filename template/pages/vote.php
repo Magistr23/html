@@ -58,27 +58,27 @@
 
 <div class="rules">
     <div class="rules__text">
+        <h3>Голосуй каждый день и получай МегаКоины за голосование!</h3>
         <?php
-        $links = ['https://tmonitoring.com/server/megacraft/ - голосуй каждый день и получай МегаКоины за голосование!' => 'https://tmonitoring.com/server/megacraft/',
-            'http://minecraftrating.ru/vote/27029' => 'http://minecraftrating.ru/vote/27029',
-            'https://minecraft-inside.ru/top/server/megacraft/' => 'https://minecraft-inside.ru/top/server/megacraft/',
-            'http://hotmc.ru/casino-169719' => 'http://hotmc.ru/casino-169719',
-            'https://mc-monitoring.info/server/143' => 'https://mc-monitoring.info/server/143',
-            'https://minecraft-monitor.ru/id/297382' => 'https://minecraft-monitor.ru/id/297382',
-            'http://minecraftmonitoring.ru/server-8756' => 'http://minecraftmonitoring.ru/server-8756',
-            'http://mc-servera.ru/68662' => 'http://mc-servera.ru/68662',
-            'https://minecraft-statistic.net/ru/server/themegacraft.html' => 'https://minecraft-statistic.net/ru/server/themegacraft.html',
-            'http://minecraft-server-list.com/server/410045/' => 'http://minecraft-server-list.com/server/410045/',
-            'http://hotmc.ru/minecraft-server-169719' => 'http://hotmc.ru/minecraft-server-169719',
-            'http://monitoringminecraft.ru/server/271083' => 'http://monitoringminecraft.ru/server/271083',
-            'http://minecraft-mp.com/server-s178755' => 'http://minecraft-mp.com/server-s178755',
-            'https://www.serverpact.com/vote-42679' => 'https://www.serverpact.com/vote-42679',
-            'https://minecraft-server.net/vote/sosdoz/' => 'https://minecraft-server.net/vote/sosdoz/',
-            'http://topminecraftservers.org/vote/12170' => 'http://topminecraftservers.org/vote/12170',
-            'https://minecraftmonitoring.com/server/80' => 'https://minecraftmonitoring.com/server/80',
-            'https://misterlauncher.org/server/megacraft/' => 'https://misterlauncher.org/server/megacraft/',
-            'https://mc-monitor.ru/server/mc-megacraft' => 'https://mc-monitor.ru/server/mc-megacraft',
-            'https://elegantservers.ru/server/78' => 'https://elegantservers.ru/server/78'];
+        $links = ['MONITORING' => 'https://tmonitoring.com/server/megacraft/',
+            'MisterLauncher' => 'http://minecraftrating.ru/vote/27029',
+            'HOTMC' => 'http://hotmc.ru/casino-169719',
+            'mc-monitoring.info' => 'https://mc-monitoring.info/server/143',
+            'minecraft-monitor.ru' => 'https://minecraft-monitor.ru/id/297382',
+            'minecraftmonitoring.ru' => 'http://minecraftmonitoring.ru/server-8756',
+            'mc-servera.ru' => 'http://mc-servera.ru/68662',
+            'minecraft-statistic.net' => 'https://minecraft-statistic.net/ru/server/themegacraft.html',
+            'minecraft-server-list.com' => 'http://minecraft-server-list.com/server/410045/',
+            'hotmc.ru' => 'http://hotmc.ru/minecraft-server-169719',
+            'monitoringminecraft.ru' => 'http://monitoringminecraft.ru/server/271083',
+            'minecraft-mp.com' => 'http://minecraft-mp.com/server-s178755',
+            'www.serverpact.com' => 'https://www.serverpact.com/vote-42679',
+            'minecraft-server.net' => 'https://minecraft-server.net/vote/sosdoz/',
+            'topminecraftservers.org' => 'http://topminecraftservers.org/vote/12170',
+            'minecraftmonitoring.com' => 'https://minecraftmonitoring.com/server/80',
+            'misterlauncher.org' => 'https://misterlauncher.org/server/megacraft/',
+            'mc-monitor.ru' => 'https://mc-monitor.ru/server/mc-megacraft',
+            'elegantservers.ru' => 'https://elegantservers.ru/server/78'];
         $random = ['🤭', '😎', '💀', '👻', '💘', '🤘', '👈'];
         foreach($links as $t => $l) {
             $r = $random[rand(0, count($random)-1)];
