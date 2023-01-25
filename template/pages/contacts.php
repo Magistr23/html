@@ -71,7 +71,7 @@
         <p>Группа сервера - <a href="https://vk.com/themegacraft" target="_blank">@themegacraft</a></p>
         <p>Фан-группа сервера - <a href="https://vk.com/funmegacraft" target="_blank">@funmegacraft</a></p>
         <p><a href="http://megacraft.org/template/assets/docs/agreement.pdf" target="_blank">Договор-оферта</a> - <a href="http://megacraft.org/template/assets/docs/privacy.pdf" target="_blank">Политика приватности</a> - <a href="http://megacraft.org/template/assets/docs/disclaimer.pdf" target="_blank">Дисклеймер</a></p>
-        <p>Почта для обращений: <a href="mailto:admin@megacraft.org">admin@megacraft.org</p>
+        <p>Почта для обращений: <a href="mailto:admin@megacraft.org">admin@megacraft.org</a></p>
     </div>
 
     <img src="<?=ASSETS_URL?>/images/container_baubles-left.png" class="img-responsive baubles baubles_container-left" alt="">

@@ -70,7 +70,7 @@
                         <div class="sales__item-buy">
                             <button class="btn sales__item-buy-btn" data-id="<?php echo $key ?>">Купить</button>
                             <div class="sales__item-price">
-                                <p class="sales__item-price-old"><?php echo $value['price'] ?> Руб</p>
+                                <p class="sales__item-price-old"><?php echo $value['price'];?> Руб</p>
                                 <p class="sales__item-price-current"><?php echo $value['sale_price'] ?> Руб</p>
                             </div>
                         </div>

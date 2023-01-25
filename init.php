@@ -31,6 +31,6 @@ define('ASSETS_URL', TPL_URL.'/assets');
 ShellaiDev\Models\System\Security::generateCsrfToken();
 
 /* Init database connection */
-ShellaiDev\Models\System\DB::init();
+//ShellaiDev\Models\System\DB::init();
 
 ?>

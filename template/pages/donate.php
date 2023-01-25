@@ -75,6 +75,7 @@ use ShellaiDev\Config;
             line-height: 15px;
             text-align: justify;
             padding-right: 10px;
+            padding-left: 10px;
             box-sizing: border-box;
             margin-bottom: 42px;
         }
@@ -103,18 +104,19 @@ use ShellaiDev\Config;
             На данной странице представлено описание всего доната.
         </p>
     </div>
-
     <div class="items">
         <div class="items__list">
             <?php
-                foreach (Config::$configs['items'] as $data_id => $i) {
-                    echo "<div class='items__list-item'>
-                        <p class='items__list-item-title'>{$i["name"]}</p>
-                        <img class='img-responsive item-img' src='{$i["img"]["default"]}' alt='{$i["name"]}'>
-                        <button class='btn btn-description' data-id='$data_id'>Открыть описание</button>
-                        </div>";
+                foreach (Config::$configs['items'] as $data_id => $i) {?>
+                    <div class='items__list-item'>
+                    <p class='items__list-item-title'><?=$i["name"]?></p>
+                    <img class='img-responsive item-img' src='<?=$i["img"]["default"]?>' alt='<?=$i["name"]?>'>
+                        <div class="item-description-full">
+                            <?=$i['descr'];?>
+                        </div>
+                    </div>
+                        <?
                 }
-
             ?>
 
         </div>
@@ -129,7 +131,9 @@ use ShellaiDev\Config;
             <div class="item-img">
                 <img class="img-responsive item-img__big" src="" alt="">
             </div>
-            <div class="item-description-full"></div>
+            <div class="item-description-full">
+                <?=$i['descr'];?>
+            </div>
         </div>
     </div>
 
