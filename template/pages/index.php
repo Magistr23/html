@@ -116,7 +116,7 @@
     <div id="buy-popup" class="popup mfp-hide">
         <p class="popup__title">Покупка товара "<span class="buy-item"></span>"</p>
         <div class="popup__border"></div>
-        <div class="item-description"></div>
+        <div class="item-description" style="height: 150px !important;"></div>
 
         <div class="item-buy">
             <div class="item-img">
